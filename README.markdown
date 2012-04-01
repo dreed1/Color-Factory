@@ -23,33 +23,29 @@ I also wrote a singleton for the factory that I use to house global colors you m
 For instance, I preloaded a set of 3 complementary color schemes.
 Each scheme is made up of 5 colors: color, bold, shadow, light, and highlight.
 
-TO USE:
-	in your header...
+#TO USE:
+###(in your header)
 	  #import "ColorFactory.h"
 
-	and in your .m file when you need a color
-		  UIColor *someColor = [ColorFactory colorFromHex:@"F00BA4"];
+###and in your .m file when you need a color
+		UIColor *someColor = [ColorFactory colorFromHex:@"F00BA4"];
 
-OR to instantiate global colors...
-	define a color in the header:
-
+##OR to instantiate global colors...
+####define a color in the header:
 		#define PRIMARY_COLOR @"FFCF9C"
-	
-	then declare this color in your class interface (in your header):
+####then declare this color in your class interface (in your header):
 
 		UIColor *primary;
 	
-	make the color a property directly below your class interface (don't forget to synthesize in your .m file!):
+####make the color a property directly below your class interface (don't forget to synthesize in your .m file!):
 	
 		@property (nonatomic, strong) UIColor *primary;
 	
-	then in the init method initialize the color like so:
-
-		primary = [ColorFactory colorFromHex:PRIMARY_COLOR];
+####then in the init method initialize the color like so:
+    primary = [ColorFactory colorFromHex:PRIMARY_COLOR];
+####finally, when you need your primary color just call it!
 		
-	finally, when you need your primary color just call it!
-		
-	(your .h file)
+###(your .h file)
 		#import "ColorFactory.h"
 		
 		@interface YourClass : NSSomeObject{
@@ -59,7 +55,7 @@ OR to instantiate global colors...
 			.
 		}
 		
-	(your class' .m file)
+###(your class' .m file)
 		//inside your viewDidLoad or init or someplace like that
 		colors = [ColorFactory sharedFactory];
 		
@@ -71,7 +67,7 @@ OR to instantiate global colors...
 		[self.hammerTable setBackgroundColor:[colors colorForHex:@"2B012B"]];
 		
 		
-That's all for today! Feel free to drop me a line at dan@danreed.net or shout if you want to meet up in SF, I love making new friends!
+##That's all for today! Feel free to drop me a line at dan@danreed.net.
 
-Thanks,
---Dan Reed
+#Thanks,
+###--Dan Reed
