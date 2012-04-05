@@ -105,31 +105,10 @@
 } 
 
 + (UIColor *) colorFromHexWithAlpha:(NSString *)hex:(float)alphaValue{
-	NSString *colorString = [[hex uppercaseString] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] ;  
-    if ([colorString length] < 6) return [UIColor grayColor];  
-    
-    if ([colorString hasPrefix:@"0X"]) colorString = [colorString substringFromIndex:2];  
-    if ([colorString hasPrefix:@"#"]) colorString = [colorString substringFromIndex:1]; 
-    if ([colorString length] != 6) return  [UIColor grayColor];  
-    
-    NSRange range;  
-    range.location = 0;  
-    range.length = 2;  
-    NSString *rString = [colorString substringWithRange:range];  
-    range.location += 2;  
-    NSString *gString = [colorString substringWithRange:range];  
-    range.location += 2;  
-    NSString *bString = [colorString substringWithRange:range];  
-
-    unsigned int red, green, blue;  
-    [[NSScanner scannerWithString:rString] scanHexInt:&red];  
-    [[NSScanner scannerWithString:gString] scanHexInt:&green];  
-    [[NSScanner scannerWithString:bString] scanHexInt:&blue];  
-    
-    return [UIColor colorWithRed:((float) red / 255.0f)  
-                           green:((float) green / 255.0f)  
-                            blue:((float) blue / 255.0f)  
-                           alpha:alphaValue];
+	UIColor *color = [ColorFactory colorFromHex:hex];
+	[color setAlpha:alphaValue];
+	
+	return color;
 }
 
 + (UIColor *) colorFromRGB:(int)red:(int)green:(int)blue{
