@@ -12,7 +12,7 @@ it'll tolerate a bit of abuse, pass it strings beginning with 0X or #, lowercase
 
 ######It includes the following class methods:
     + (UIColor *) colorFromHex:(NSString *)hex;
-		+ (UIColor *) colorFromHexWithAlpha:(NSString *)hex:(float)alphaValue;
+    + (UIColor *) colorFromHexWithAlpha:(NSString *)hex:(float)alphaValue;
 
     //NOTE: these wrap apple's already existing methods
     + (UIColor *) colorFromRGB:(int)red:(int)green:(int)blue;
