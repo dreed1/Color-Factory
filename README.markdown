@@ -2,8 +2,8 @@
      * ---------------------------------------------------------------------------- 
      * "BEER-WARE LICENSE":
      * <dan@danreed.net> wrote this class. As long as you retain this notice you
-     * can do whatever you want with this stuff. If we meet some day, and you think
-     * this stuff is worth it, you can buy me a beer in return --Dan Reed
+     * can do whatever you want with this stuff. If we meet some day (and you think
+     * this stuff is worth it) you can buy me a beer in return --Dan Reed
      * ----------------------------------------------------------------------------
      */
 
@@ -12,6 +12,7 @@ it'll tolerate a bit of abuse, pass it strings beginning with 0X or #, lowercase
 
 ######It includes the following class methods:
     + (UIColor *) colorFromHex:(NSString *)hex;
+		+ (UIColor *) colorFromHexWithAlpha:(NSString *)hex:(float)alphaValue;
 
     //NOTE: these wrap apple's already existing methods
     + (UIColor *) colorFromRGB:(int)red:(int)green:(int)blue;

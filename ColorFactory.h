@@ -6,13 +6,13 @@
 //
 
 /*
- * ----------------------------------------------------------------------------
- * "BEER-WARE LICENSE":
- * <dan@danreed.net> wrote this class. As long as you retain this notice you
- * can do whatever you want with this stuff. If we meet some day, and you think
- * this stuff is worth it, you can buy me a beer in return --Dan Reed
- * ----------------------------------------------------------------------------
- */
+* ---------------------------------------------------------------------------- 
+* "BEER-WARE LICENSE":
+* <dan@danreed.net> wrote this class. As long as you retain this notice you
+* can do whatever you want with this stuff. If we meet some day (and you think
+* this stuff is worth it) you can buy me a beer in return --Dan Reed
+* ----------------------------------------------------------------------------
+*/
 
 #define PRIMARY_COLOR @"FFCF9C"
 #define SECONDARY_COLOR @"8190C4"
@@ -81,6 +81,7 @@
 +(ColorFactory *)sharedFactory;
 
 + (UIColor *) colorFromHex:(NSString *)hex;
++ (UIColor *) colorFromHexWithAlpha:(NSString *)hex:(float)alphaValue;
 + (UIColor *) colorFromRGB:(int)red:(int)green:(int)blue;
 + (UIColor *) colorFromRGBA:(int)red:(int)green:(int)blue:(float)alpha;
 
