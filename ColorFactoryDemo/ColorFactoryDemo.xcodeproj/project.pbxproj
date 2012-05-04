@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E88B362515544C7800AF03AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B362415544C7800AF03AC /* UIKit.framework */; };
+		E88B362715544C7800AF03AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B362615544C7800AF03AC /* Foundation.framework */; };
+		E88B362915544C7800AF03AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B362815544C7800AF03AC /* CoreGraphics.framework */; };
+		E88B362F15544C7800AF03AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E88B362D15544C7800AF03AC /* InfoPlist.strings */; };
+		E88B363115544C7900AF03AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E88B363015544C7900AF03AC /* main.m */; };
+		E88B363515544C7900AF03AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E88B363415544C7900AF03AC /* AppDelegate.m */; };
+		E88B363815544C7900AF03AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E88B363715544C7900AF03AC /* ViewController.m */; };
+		E88B363B15544C7900AF03AC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E88B363915544C7900AF03AC /* ViewController_iPhone.xib */; };
+		E88B363E15544C7900AF03AC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E88B363C15544C7900AF03AC /* ViewController_iPad.xib */; };
+		E88B364615544C7900AF03AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B364515544C7900AF03AC /* SenTestingKit.framework */; };
+		E88B364715544C7900AF03AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B362415544C7800AF03AC /* UIKit.framework */; };
+		E88B364815544C7900AF03AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B362615544C7800AF03AC /* Foundation.framework */; };
+		E88B365015544C7900AF03AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E88B364E15544C7900AF03AC /* InfoPlist.strings */; };
+		E88B365315544C7900AF03AC /* ColorFactoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E88B365215544C7900AF03AC /* ColorFactoryDemoTests.m */; };
+		E88B365E15544C9B00AF03AC /* ColorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E88B365D15544C9B00AF03AC /* ColorFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E88B364915544C7900AF03AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E88B361715544C7800AF03AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E88B361F15544C7800AF03AC;
+			remoteInfo = ColorFactoryDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E88B362015544C7800AF03AC /* ColorFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88B362415544C7800AF03AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E88B362615544C7800AF03AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E88B362815544C7800AF03AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E88B362C15544C7800AF03AC /* ColorFactoryDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorFactoryDemo-Info.plist"; sourceTree = "<group>"; };
+		E88B362E15544C7800AF03AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E88B363015544C7900AF03AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E88B363215544C7900AF03AC /* ColorFactoryDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorFactoryDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E88B363315544C7900AF03AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E88B363415544C7900AF03AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E88B363615544C7900AF03AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E88B363715544C7900AF03AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E88B363A15544C7900AF03AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		E88B363D15544C7900AF03AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		E88B364415544C7900AF03AC /* ColorFactoryDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorFactoryDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88B364515544C7900AF03AC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E88B364D15544C7900AF03AC /* ColorFactoryDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorFactoryDemoTests-Info.plist"; sourceTree = "<group>"; };
+		E88B364F15544C7900AF03AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E88B365115544C7900AF03AC /* ColorFactoryDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorFactoryDemoTests.h; sourceTree = "<group>"; };
+		E88B365215544C7900AF03AC /* ColorFactoryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorFactoryDemoTests.m; sourceTree = "<group>"; };
+		E88B365C15544C9B00AF03AC /* ColorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorFactory.h; path = ../../ColorFactory.h; sourceTree = "<group>"; };
+		E88B365D15544C9B00AF03AC /* ColorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorFactory.m; path = ../../ColorFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E88B361D15544C7800AF03AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88B362515544C7800AF03AC /* UIKit.framework in Frameworks */,
+				E88B362715544C7800AF03AC /* Foundation.framework in Frameworks */,
+				E88B362915544C7800AF03AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E88B364015544C7900AF03AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88B364615544C7900AF03AC /* SenTestingKit.framework in Frameworks */,
+				E88B364715544C7900AF03AC /* UIKit.framework in Frameworks */,
+				E88B364815544C7900AF03AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E88B361515544C7800AF03AC = {
+			isa = PBXGroup;
+			children = (
+				E88B362A15544C7800AF03AC /* ColorFactoryDemo */,
+				E88B364B15544C7900AF03AC /* ColorFactoryDemoTests */,
+				E88B362315544C7800AF03AC /* Frameworks */,
+				E88B362115544C7800AF03AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E88B362115544C7800AF03AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E88B362015544C7800AF03AC /* ColorFactoryDemo.app */,
+				E88B364415544C7900AF03AC /* ColorFactoryDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E88B362315544C7800AF03AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E88B362415544C7800AF03AC /* UIKit.framework */,
+				E88B362615544C7800AF03AC /* Foundation.framework */,
+				E88B362815544C7800AF03AC /* CoreGraphics.framework */,
+				E88B364515544C7900AF03AC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E88B362A15544C7800AF03AC /* ColorFactoryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E88B365C15544C9B00AF03AC /* ColorFactory.h */,
+				E88B365D15544C9B00AF03AC /* ColorFactory.m */,
+				E88B363315544C7900AF03AC /* AppDelegate.h */,
+				E88B363415544C7900AF03AC /* AppDelegate.m */,
+				E88B363615544C7900AF03AC /* ViewController.h */,
+				E88B363715544C7900AF03AC /* ViewController.m */,
+				E88B363915544C7900AF03AC /* ViewController_iPhone.xib */,
+				E88B363C15544C7900AF03AC /* ViewController_iPad.xib */,
+				E88B362B15544C7800AF03AC /* Supporting Files */,
+			);
+			path = ColorFactoryDemo;
+			sourceTree = "<group>";
+		};
+		E88B362B15544C7800AF03AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E88B362C15544C7800AF03AC /* ColorFactoryDemo-Info.plist */,
+				E88B362D15544C7800AF03AC /* InfoPlist.strings */,
+				E88B363015544C7900AF03AC /* main.m */,
+				E88B363215544C7900AF03AC /* ColorFactoryDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E88B364B15544C7900AF03AC /* ColorFactoryDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E88B365115544C7900AF03AC /* ColorFactoryDemoTests.h */,
+				E88B365215544C7900AF03AC /* ColorFactoryDemoTests.m */,
+				E88B364C15544C7900AF03AC /* Supporting Files */,
+			);
+			path = ColorFactoryDemoTests;
+			sourceTree = "<group>";
+		};
+		E88B364C15544C7900AF03AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E88B364D15544C7900AF03AC /* ColorFactoryDemoTests-Info.plist */,
+				E88B364E15544C7900AF03AC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E88B361F15544C7800AF03AC /* ColorFactoryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E88B365615544C7900AF03AC /* Build configuration list for PBXNativeTarget "ColorFactoryDemo" */;
+			buildPhases = (
+				E88B361C15544C7800AF03AC /* Sources */,
+				E88B361D15544C7800AF03AC /* Frameworks */,
+				E88B361E15544C7800AF03AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorFactoryDemo;
+			productName = ColorFactoryDemo;
+			productReference = E88B362015544C7800AF03AC /* ColorFactoryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E88B364315544C7900AF03AC /* ColorFactoryDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E88B365915544C7900AF03AC /* Build configuration list for PBXNativeTarget "ColorFactoryDemoTests" */;
+			buildPhases = (
+				E88B363F15544C7900AF03AC /* Sources */,
+				E88B364015544C7900AF03AC /* Frameworks */,
+				E88B364115544C7900AF03AC /* Resources */,
+				E88B364215544C7900AF03AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E88B364A15544C7900AF03AC /* PBXTargetDependency */,
+			);
+			name = ColorFactoryDemoTests;
+			productName = ColorFactoryDemoTests;
+			productReference = E88B364415544C7900AF03AC /* ColorFactoryDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E88B361715544C7800AF03AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Attachments.me;
+			};
+			buildConfigurationList = E88B361A15544C7800AF03AC /* Build configuration list for PBXProject "ColorFactoryDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E88B361515544C7800AF03AC;
+			productRefGroup = E88B362115544C7800AF03AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E88B361F15544C7800AF03AC /* ColorFactoryDemo */,
+				E88B364315544C7900AF03AC /* ColorFactoryDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E88B361E15544C7800AF03AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88B362F15544C7800AF03AC /* InfoPlist.strings in Resources */,
+				E88B363B15544C7900AF03AC /* ViewController_iPhone.xib in Resources */,
+				E88B363E15544C7900AF03AC /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E88B364115544C7900AF03AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88B365015544C7900AF03AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E88B364215544C7900AF03AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E88B361C15544C7800AF03AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88B363115544C7900AF03AC /* main.m in Sources */,
+				E88B363515544C7900AF03AC /* AppDelegate.m in Sources */,
+				E88B363815544C7900AF03AC /* ViewController.m in Sources */,
+				E88B365E15544C9B00AF03AC /* ColorFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E88B363F15544C7900AF03AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88B365315544C7900AF03AC /* ColorFactoryDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E88B364A15544C7900AF03AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E88B361F15544C7800AF03AC /* ColorFactoryDemo */;
+			targetProxy = E88B364915544C7900AF03AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E88B362D15544C7800AF03AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E88B362E15544C7800AF03AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E88B363915544C7900AF03AC /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E88B363A15544C7900AF03AC /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E88B363C15544C7900AF03AC /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E88B363D15544C7900AF03AC /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		E88B364E15544C7900AF03AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E88B364F15544C7900AF03AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E88B365415544C7900AF03AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E88B365515544C7900AF03AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E88B365715544C7900AF03AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorFactoryDemo/ColorFactoryDemo-Prefix.pch";
+				INFOPLIST_FILE = "ColorFactoryDemo/ColorFactoryDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E88B365815544C7900AF03AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorFactoryDemo/ColorFactoryDemo-Prefix.pch";
+				INFOPLIST_FILE = "ColorFactoryDemo/ColorFactoryDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E88B365A15544C7900AF03AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorFactoryDemo.app/ColorFactoryDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorFactoryDemo/ColorFactoryDemo-Prefix.pch";
+				INFOPLIST_FILE = "ColorFactoryDemoTests/ColorFactoryDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E88B365B15544C7900AF03AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorFactoryDemo.app/ColorFactoryDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorFactoryDemo/ColorFactoryDemo-Prefix.pch";
+				INFOPLIST_FILE = "ColorFactoryDemoTests/ColorFactoryDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E88B361A15544C7800AF03AC /* Build configuration list for PBXProject "ColorFactoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88B365415544C7900AF03AC /* Debug */,
+				E88B365515544C7900AF03AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E88B365615544C7900AF03AC /* Build configuration list for PBXNativeTarget "ColorFactoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88B365715544C7900AF03AC /* Debug */,
+				E88B365815544C7900AF03AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E88B365915544C7900AF03AC /* Build configuration list for PBXNativeTarget "ColorFactoryDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88B365A15544C7900AF03AC /* Debug */,
+				E88B365B15544C7900AF03AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E88B361715544C7800AF03AC /* Project object */;
+}

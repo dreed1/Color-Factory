@@ -1,0 +1,284 @@
+TColorFactoryDemo
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/Info.plist ColorFactoryDemo/ColorFactoryDemo-Info.plist
+cProcessPCH /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch.pth ColorFactoryDemo/ColorFactoryDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/AppDelegate.o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/main.o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ViewController.o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ColorFactory.o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/../../ColorFactory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo normal i386
+cGenerateDSYMFile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app.dSYM /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo
+cCopyStringsFile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/en.lproj/InfoPlist.strings ColorFactoryDemo/en.lproj/InfoPlist.strings
+cCompileXIB /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPhone.xib
+cCompileXIB /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPad.xib
+cTouch /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F66D3E10000000000000110
+t1332138977
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F66D3910000000000244490
+t1332138897
+s2376848
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F66D39F0000000000353830
+t1332138911
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F66D3AF0000000000905E40
+t1332138927
+s9461312
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/../../ColorFactory.m
+c000000004FA4162F0000000000001292
+t1336153647
+s4754
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/AppDelegate.m
+c000000004FA414F90000000000000A79
+t1336153337
+s2681
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ColorFactoryDemo-Prefix.pch
+c000000004FA414F9000000000000014F
+t1336153337
+s335
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ViewController.m
+c000000004FA414F90000000000000527
+t1336153337
+s1319
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/InfoPlist.strings
+c000000004FA414F8000000000000002D
+t1336153336
+s45
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPad.xib
+c000000004FA414F90000000000001454
+t1336153337
+s5204
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPhone.xib
+c000000004FA414F9000000000000146B
+t1336153337
+s5227
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/main.m
+c000000004FA414F90000000000000158
+t1336153337
+s344
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ColorFactory.o
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ColorFactoryDemo.LinkFileList
+c000000004FA416380000000000000331
+t1336153656
+s817
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch.pth
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app.dSYM
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/Info.plist
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/PkgInfo
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/en.lproj/ViewController_iPad.nib
+t2
+s0
+
+N/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/en.lproj/ViewController_iPhone.nib
+t2
+s0
+
+NColorFactoryDemo/ColorFactoryDemo-Info.plist
+c000000004FA414F800000000000005DC
+t1336153336
+s1500
+
+CBuild AST from /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/../../ColorFactory.m
+r0
+
+CBuild AST from /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/AppDelegate.m
+r0
+
+CBuild AST from /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ViewController.m
+r0
+
+CBuild AST from /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6bd629b84d54b541^89952db84d54b541^---0#1#0#--18"Check dependencies36"E9A647EF-06B1-4CA8-BBBC-D93809EABFC5-
+
+CCompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/AppDelegate.o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357846459.014022
+e357846459.127247
+r1
+xCompileC
+xDerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/AppDelegate.o
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/AppDelegate.mbfb903bb4d54b541^e89f20bb4d54b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/AppDelegate.m0000000000000000^3549"CompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/AppDelegate.o ColorFactoryDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-generated-files.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-own-target-headers.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-all-target-headers.hmap -iquote /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-project-headers.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/include -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/DerivedSources/i386 -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/DerivedSources -F/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator -include /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch -MMD -MT dependencies -MF /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/AppDelegate.d -c /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/AppDelegate.m -o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/AppDelegate.o36"9A9D0A42-F768-4A84-9071-458885EB8B90-
+
+CCompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ColorFactory.o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/../../ColorFactory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357846459.128483
+e357846459.206633
+r1
+xCompileC
+xDerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ColorFactory.o
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/../../ColorFactory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/../../ColorFactory.m7d0521bb4d54b541^e2e634bb4d54b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/../../ColorFactory.m0000000000000000^3566"CompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ColorFactory.o ColorFactoryDemo/../../ColorFactory.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-generated-files.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-own-target-headers.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-all-target-headers.hmap -iquote /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-project-headers.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/include -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/DerivedSources/i386 -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/DerivedSources -F/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator -include /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch -MMD -MT dependencies -MF /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ColorFactory.d -c /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/../../ColorFactory.m -o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ColorFactory.o36"C57DDCAA-B92F-4736-BE50-CFE0BF17F8C0-
+
+CCompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ViewController.o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357846459.079509
+e357846459.149089
+r1
+xCompileC
+xDerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ViewController.o
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ViewController.mfa8014bb4d54b541^e73526bb4d54b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ViewController.m0000000000000000^3564"CompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ViewController.o ColorFactoryDemo/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-generated-files.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-own-target-headers.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-all-target-headers.hmap -iquote /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-project-headers.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/include -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/DerivedSources/i386 -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/DerivedSources -F/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator -include /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch -MMD -MT dependencies -MF /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ViewController.d -c /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ViewController.m -o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ViewController.o36"9CB32D8D-EFDF-4EA0-9B45-C2F890AB0378-
+
+CCompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/main.o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357846459.014026
+e357846459.078253
+r1
+xCompileC
+xDerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/main.o
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/main.m3cbc03bb4d54b541^fa0814bb4d54b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/main.m0000000000000000^3514"CompileC DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/main.o ColorFactoryDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-generated-files.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-own-target-headers.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-all-target-headers.hmap -iquote /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-project-headers.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/include -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/DerivedSources/i386 -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/DerivedSources -F/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator -include /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch -MMD -MT dependencies -MF /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/main.d -c /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/main.m -o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/main.o36"B68A4354-B4FA-4C6A-B794-30B1D8220737-
+
+CCompileXIB /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPad.xib
+s357846459.550504
+e357846463.828414
+r1
+xCompileXIB
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPad.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compiling /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPad.xib21038dbb4d54b541^7e1dd4bf4d54b541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPad.xib0000000000000000^834"CompileXIB ColorFactoryDemo/en.lproj/ViewController_iPad.xib    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/en.lproj/ViewController_iPad.nib /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"8BEB682B-B6FB-4B10-A7AC-92DC7396016F-
+
+CCompileXIB /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPhone.xib
+s357846459.499151
+e357846463.836805
+r1
+xCompileXIB
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPhone.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compiling /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPhone.xibb6da7fbb4d54b541^a644d6bf4d54b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPhone.xib0000000000000000^840"CompileXIB ColorFactoryDemo/en.lproj/ViewController_iPhone.xib    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/en.lproj/ViewController_iPhone.nib /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/ViewController_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"12D27266-EF27-4B21-82D8-2C5DB0CD5BED-
+
+CCopyStringsFile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/en.lproj/InfoPlist.strings ColorFactoryDemo/en.lproj/InfoPlist.strings
+s357846459.498977
+e357846459.549298
+r1
+xCopyStringsFile
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/en.lproj/InfoPlist.strings
+xColorFactoryDemo/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy ColorFactoryDemo/en.lproj/InfoPlist.stringsa5da83bb4d54b541^d2a88cbb4d54b541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/en.lproj/InfoPlist.strings0000000000000000^653"CopyStringsFile DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/en.lproj/InfoPlist.strings ColorFactoryDemo/en.lproj/InfoPlist.strings    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/en.lproj -- ColorFactoryDemo/en.lproj/InfoPlist.strings36"D1314EE1-3BB1-422E-8A5A-2AE5B671B1DC-
+
+CGenerateDSYMFile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app.dSYM /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo
+s357846459.365832
+e357846459.495822
+r1
+xGenerateDSYMFile
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app.dSYM
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Generating /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app.dSYM94bd5dbb4d54b541^80ef7ebb4d54b541^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app.dSYM00f81412dcffdf42^744"GenerateDSYMFile DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app.dSYM DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo -o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app.dSYM36"07A3046B-B3B7-4824-AD3D-8FD6C95F0B42-
+
+CLd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo normal i386
+s357846459.208525
+e357846459.363890
+r1
+xLd
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Link /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo857735bb4d54b541^56295dbb4d54b541^---0#0#0#--1375"Ld DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo normal i386    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator -F/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator -filelist /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/Objects-normal/i386/ColorFactoryDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/ColorFactoryDemo36"5714C8C7-3BAC-4308-B8E2-B7CFF1B8CF73-
+
+CProcessInfoPlistFile /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/Info.plist ColorFactoryDemo/ColorFactoryDemo-Info.plist
+s357846456.177708
+e357846456.185724
+r1
+xProcessInfoPlistFile
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/Info.plist
+xColorFactoryDemo/ColorFactoryDemo-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Process ColorFactoryDemo/ColorFactoryDemo-Info.plist63632eb84d54b541^3a3f31b84d54b541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ColorFactoryDemo-Info.plist0000000000000000^808"ProcessInfoPlistFile DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/Info.plist ColorFactoryDemo/ColorFactoryDemo-Info.plist    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ColorFactoryDemo/ColorFactoryDemo-Info.plist -genpkginfo /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app/Info.plist36"C3482F6D-B582-407C-A462-138ECB17567C-
+
+CProcessPCH /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch.pth ColorFactoryDemo/ColorFactoryDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357846456.193939
+e357846459.011725
+r1
+xProcessPCH
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch.pth
+xColorFactoryDemo/ColorFactoryDemo-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile ColorFactoryDemo/ColorFactoryDemo-Prefix.pch37c731b84d54b541^850503bb4d54b541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ColorFactoryDemo-Prefix.pch0000000000000000^3350"ProcessPCH DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch.pth ColorFactoryDemo/ColorFactoryDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-generated-files.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-own-target-headers.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-all-target-headers.hmap -iquote /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/ColorFactoryDemo-project-headers.hmap -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/include -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/DerivedSources/i386 -I/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Intermediates/ColorFactoryDemo.build/Debug-iphonesimulator/ColorFactoryDemo.build/DerivedSources -F/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator -c /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/ColorFactoryDemo/ColorFactoryDemo-Prefix.pch -o /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch.pth -MMD -MT dependencies -MF /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/PrecompiledHeaders/ColorFactoryDemo-Prefix-aoiegqacdsnbuyghqdsricbsbldf/ColorFactoryDemo-Prefix.pch.d36"E0FD918D-02AB-424A-8E4F-7B395C3043A8-
+
+CProcessPCH /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Index/PrecompiledHeaders/ColorFactoryDemo-Prefix-hdsxwaixapdjrkehopffqejeimtg_ast/ColorFactoryDemo-Prefix.pch.pth ColorFactoryDemo/ColorFactoryDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app
+s357846463.840036
+e357846463.877543
+r1
+xTouch
+x/Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Touch /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app3220d7bf4d54b541^46b1e0bf4d54b541^---0#0#0#--448"Touch DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app    cd /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/reeddp1/code/iOS/colorFactory/ColorFactoryDemo/DerivedData/ColorFactoryDemo/Build/Products/Debug-iphonesimulator/ColorFactoryDemo.app36"D0C5FE3A-4D96-433C-A2D7-A1B7839E8B6E-
+
