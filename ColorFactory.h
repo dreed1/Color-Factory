@@ -66,10 +66,9 @@
 
 +(ColorFactory *)sharedFactory;
 
+@end
+
+@interface UIColor (ColorFromHex)
 + (UIColor *) colorFromHex:(NSString *)hex;
-+ (UIColor *) colorFromHexWithAlpha:(NSString *)hex:(float)alphaValue;
-+ (UIColor *) colorFromRGB:(int)red:(int)green:(int)blue;
-+ (UIColor *) colorFromRGBA:(int)red:(int)green:(int)blue:(float)alpha;
-
-
++ (UIColor *) colorFromHex:(NSString *)hex withAlpha:(float)alphaValue;
 @end

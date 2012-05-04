@@ -47,23 +47,27 @@
     self = [super init];
     if(self){
         //init global colors here
-        primary = [ColorFactory colorFromHex:PRIMARY_COLOR];
-        secondary = [ColorFactory colorFromHex:SECONDARY_COLOR];
+        primary = [UIColor colorFromHex:PRIMARY_COLOR];
+        secondary = [UIColor colorFromHex:SECONDARY_COLOR];
         
-        primaryShadow = [ColorFactory colorFromHex:PRIMARY_SHADOW_COLOR];
-        secondaryShadow = [ColorFactory colorFromHex:SECONDARY_SHADOW_COLOR];
+        primaryShadow = [UIColor colorFromHex:PRIMARY_SHADOW_COLOR];
+        secondaryShadow = [UIColor colorFromHex:SECONDARY_SHADOW_COLOR];
         
-        primaryBold = [ColorFactory colorFromHex:PRIMARY_BOLD_COLOR];
-        secondaryBold = [ColorFactory colorFromHex:SECONDARY_BOLD_COLOR];
+        primaryBold = [UIColor colorFromHex:PRIMARY_BOLD_COLOR];
+        secondaryBold = [UIColor colorFromHex:SECONDARY_BOLD_COLOR];
         
-        primaryLight = [ColorFactory colorFromHex:PRIMARY_LIGHT_COLOR];
-        secondaryLight = [ColorFactory colorFromHex:SECONDARY_LIGHT_COLOR];
+        primaryLight = [UIColor colorFromHex:PRIMARY_LIGHT_COLOR];
+        secondaryLight = [UIColor colorFromHex:SECONDARY_LIGHT_COLOR];
         
-        primaryHighlight = [ColorFactory colorFromHex:PRIMARY_HIGHLIGHT_COLOR];
-        secondaryHighlight = [ColorFactory colorFromHex:SECONDARY_HIGHLIGHT_COLOR];
+        primaryHighlight = [UIColor colorFromHex:PRIMARY_HIGHLIGHT_COLOR];
+        secondaryHighlight = [UIColor colorFromHex:SECONDARY_HIGHLIGHT_COLOR];
     }
     return self;
 }
+
+@end
+
+@implementation UIColor (ColorFromHex)
 
 + (UIColor *) colorFromHex:(NSString *)hex {
     
@@ -98,7 +102,7 @@
                            alpha:1.0f];  
 } 
 
-+ (UIColor *) colorFromHexWithAlpha:(NSString *)hex:(float)alphaValue{
++ (UIColor *) colorFromHex:(NSString *)hex withAlpha:(float)alphaValue{
     float theAlpha = alphaValue;
 	if(theAlpha > 1.0f)
         theAlpha = 1.0f;
@@ -127,24 +131,6 @@
     [[NSScanner scannerWithString:rString] scanHexInt:&red];  
     [[NSScanner scannerWithString:gString] scanHexInt:&green];  
     [[NSScanner scannerWithString:bString] scanHexInt:&blue];  
-    
-    return [UIColor colorWithRed:((float) red / 255.0f)  
-                           green:((float) green / 255.0f)  
-                            blue:((float) blue / 255.0f)  
-                           alpha:theAlpha];  
-}
-
-+ (UIColor *) colorFromRGB:(int)red:(int)green:(int)blue{
-    return [UIColor colorWithRed:((float) red / 255.0f)  
-                           green:((float) green / 255.0f)  
-                            blue:((float) blue / 255.0f)  
-                           alpha:1.0f];  
-}
-
-+ (UIColor *) colorFromRGBA:(int)red:(int)green:(int)blue:(float)alpha{
-    float theAlpha = alpha;
-    if(theAlpha > 1.0f)
-        theAlpha = 1.0f;
     
     return [UIColor colorWithRed:((float) red / 255.0f)  
                            green:((float) green / 255.0f)  
