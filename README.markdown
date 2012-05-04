@@ -10,13 +10,10 @@
 I wrote color factory initially to use hex code in creating colors in objective-c. 
 it'll tolerate a bit of abuse, pass it strings beginning with 0X or #, lowercase letters as well!
 
-######It includes the following class methods:
+######It includes the following categories on UIColor:
     + (UIColor *) colorFromHex:(NSString *)hex;
     + (UIColor *) colorFromHexWithAlpha:(NSString *)hex:(float)alphaValue;
 
-    //NOTE: these wrap apple's already existing methods
-    + (UIColor *) colorFromRGB:(int)red:(int)green:(int)blue;
-    + (UIColor *) colorFromRGBA:(int)red:(int)green:(int)blue:(float)alpha;
 
 ###I also wrote a singleton for the factory that I use to house global colors you might want in your scheme
 
@@ -29,7 +26,7 @@ This is just an example, you might want an 'alert' color or something.
 	  #import "ColorFactory.h"
 
 ###and in your .m file when you need a color
-		UIColor *someColor = [ColorFactory colorFromHex:@"F00BA4"];
+		UIColor *someColor = [UIColor colorFromHex:@"F00BA4"];
 
 ##OR for global colors...
 ####define a color in the header of the factory (or however you like):
@@ -43,7 +40,7 @@ This is just an example, you might want an 'alert' color or something.
 		@property (nonatomic, strong) UIColor *primary;
 	
 ####then in the init method initialize the color like so:
-    primary = [ColorFactory colorFromHex:PRIMARY_COLOR];
+    primary = [UIColor colorFromHex:PRIMARY_COLOR];
 
 ###finally, when you need your primary color just call it!
 		
@@ -66,7 +63,7 @@ This is just an example, you might want an 'alert' color or something.
 		[cell.textLabel setTextColor:[colors kickAssRed]];
 		
 		//you can still call hex colors on the fly as well, don't forget!
-		[self.hammerTable setBackgroundColor:[ColorFactory colorForHex:@"2B012B"]];
+		[self.hammerTable setBackgroundColor:[UIColor colorForHex:@"2B012B"]];
 		
 ##That's all for today! Feel free to drop me a line at dan@danreed.net.
 
